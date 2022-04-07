@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images HTML.</title>
+</head>
+
+<body>
+    <h3>This are html images.</h3>
+    <p>You can view your image below:</p>
+    <img style="height: 200px; width:400px;" src="C:\Users\clinton\Desktop\BING WALLPAPERS\BingWallpaper (7).jpg"><br>
+    <p>Did you like the html image above?</p>
+    <form>
+        <label for="image">Yes</label>
+        <input type="checkbox" id="image" name="image">
+        <button onclick="getValue()">checkbox</button>
+
+        <script type="text/javascript">
+            function getValue() {
+                alert(document.getElementById('image').value);
+            }
+        </script>
+
+    </form>
+
+</body>
+
+</html>
